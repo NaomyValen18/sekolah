@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dashboard Sekolah</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="assets/logo.png" alt="Logo Sekolah" class="logo">
+    <h1>SMK Valtax Nusantara</h1>
+    <nav>
+      <ul>
+        <li><a href="#" onclick="showPage('home')">Beranda</a></li>
+        <li><a href="#" onclick="showPage('profil')">Profil</a></li>
+        <li><a href="#" onclick="showPage('ekskul')">Ekstrakurikuler</a></li>
+        <li><a href="#" onclick="showPage('kontak')">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="page active">
+      <h2>Selamat datang di SMK Valtax Nusantara</h2>
+      <p>Sekolah unggulan dengan berbagai jurusan menarik dan fasilitas modern.</p>
+    </section>
+    <section id="profil" class="page">
+      <h2>Profil Sekolah</h2>
+      <p>SMK Valtax Nusantara berdiri sejak 2010 dengan fokus pada pendidikan teknologi dan bisnis.</p>
+    </section>
+    <section id="ekskul" class="page">
+      <h2>Ekstrakurikuler</h2>
+      <ul>
+        <li>Pramuka</li>
+        <li>OSIS</li>
+        <li>Futsal</li>
+        <li>PMR</li>
+      </ul>
+    </section>
+    <section id="kontak" class="page">
+      <h2>Kontak Kami</h2>
+      <p>Email: info@valtaxnusantara.sch.id</p>
+      <p>Telepon: (021) 123-4567</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 SMK Valtax Nusantara</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
